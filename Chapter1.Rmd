@@ -1,18 +1,28 @@
 ---
-title: "R Notebook: Chapter 1"
+title: "Chapter 1"
 output: html_notebook
 ---
 
-This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+*A Brief History of Statistical Learning*
 
-Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
-
-```{r}
-plot(cars)
-```
-
-Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
-
-When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
-
-The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+Though the term statistical learning is fairly new, many of the concepts that
+underlie the field were developed long ago. At the beginning of the nineteenth
+century, the method of least squares was developed, implementing
+the earliest form of what is now known as linear regression. The approach
+was first successfully applied to problems in astronomy. Linear regression
+is used for predicting quantitative values, such as an individual’s salary. In
+order to predict qualitative values, such as whether a patient survives or
+dies, or whether the stock market increases or decreases, linear discriminant
+analysis was proposed in 1936. In the 1940s, various authors put
+forth an alternative approach, logistic regression. In the early 1970s, the
+term generalized linear model was developed to describe an entire class of
+statistical learning methods that include both linear and logistic regression
+as special cases.
+By the end of the 1970s, many more techniques for learning from data
+were available. However, they were almost exclusively linear methods because
+fitting non-linear relationships was computationally difficult at the
+time. By the 1980s, computing technology had finally improved sufficiently
+that non-linear methods were no longer computationally prohibitive. In
+the mid 1980s, classification and regression trees were developed, followed
+shortly by generalized additive models. Neural networks gained popularity
+in the 1980s, and support vector machines arose in the 1990s.
